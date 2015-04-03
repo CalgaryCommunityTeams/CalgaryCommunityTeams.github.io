@@ -1,0 +1,9 @@
+- name: Qsine
+  web: http://qsine.ca
+  logo: Qsine.png
+- name: Allsold
+  web: http://allsold.ca
+  logo: Allsold.png
+- name: SAIT
+  web: http://www.sait.ca/
+  logo: SAIT_Logo.svg

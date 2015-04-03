@@ -1,0 +1,12 @@
+---
+layout: page
+title: Sponsors
+permalink: /sponsors/
+---
+<div class="sponsors">
+    {% for sponsor in site.data.sponsors %}
+    {% if sponsor.web %}
+    <a href="{{ sponsor.web }}"> {% endif %} {% if sponsor.logo %} <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" /> {% else %} {{ sponsor.name }} {% endif %} {% if sponsor.web %} </a>
+    {% endif %}
+    {% endfor %}
+</div>
